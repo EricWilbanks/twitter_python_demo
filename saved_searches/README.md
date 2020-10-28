@@ -1,0 +1,1 @@
+This folder is empty because Twitter ToS requires tweets stored off Twitter to be kept up to date with their status on Twitter. Because of this, you'll need to create your own searches to carry out the exercises discussed in this demo.
