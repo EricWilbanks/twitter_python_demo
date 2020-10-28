@@ -1,0 +1,39 @@
+<h1 id="creating-an-app-to-gather-tweets">Creating an App to Gather Tweets</h1>
+<p>We'll be gathering tweets automatically with Twitter's API (Application Programming Interface); this will allow us to automate searches and return tweets in a more compressed, efficient format.</p>
+<h2 id="developer-access">Developer Access</h2>
+<p>To do this, you have to first set up a <strong>Developer App</strong> associated with your Twitter account. Twitter has recently implemented a more involved review process to apply for a Developer access, so this could take time.</p>
+<p>Make sure to review the <a href="https://developer.twitter.com/en/developer-terms/policy">Developer Terms</a>. <strong>A few highlights</strong>:</p>
+<ul>
+<li>Your account has a <code>rate limit</code> to the number of requests you can process in a given time frame; if you go over, you may be throttled or (in extreme cases) suspended.</li>
+<li>There are more regulations on posting/editing content than there are on reading/scraping information</li>
+<li>You must respect people's privacy: when reading/scraping information, only allow information to be gathered from public accounts</li>
+<li>If you store Twitter Content offline, you have to make sure it's up to date with current status
+<ol style="list-style-type: decimal">
+<li>If something is deleted or made private after you collect it, you have to remove it.</li>
+<li>If a geotag is removed, you must also remove it</li>
+</ol></li>
+<li>When dealing with geodata, you can't separate geodata from tweets to (e.g.) track where an individual has been
+<ol style="list-style-type: decimal">
+<li>Dealing with geodata in the aggregate is allowed (e.g., how many people in X City are tweeting about Y)</li>
+</ol></li>
+</ul>
+<p><strong>To Get Developer Access</strong></p>
+<ol style="list-style-type: decimal">
+<li>Create/Have a Twitter Account</li>
+<li>Go to <a href="https://developer.twitter.com/" class="uri">https://developer.twitter.com/</a></li>
+<li>Choose &quot;Apply for a Developer Account&quot;</li>
+<li>Choose the option that best fits your needs (probably &quot;Doing Academic Research&quot; or &quot;Student&quot;) and follow the prompts</li>
+</ol>
+<h2 id="setting-up-an-app">Setting up an App</h2>
+<p>Currently, twitter is in early access for v2 of its API and developer tools. There are some exciting things coming, but we'll be talking only about functionality in the current live version (1.1).</p>
+<p>Because of this, we'll be creating a <strong>Standalone App</strong>, not a <strong>Project</strong> in the Developer Portal.</p>
+<ol style="list-style-type: decimal">
+<li>Select &quot;Create App&quot;</li>
+<li>Select a unique name</li>
+<li>At the API keys screen, copy and securely record these two values. The first one &quot;Api Key&quot; is your API Consumer Key. The second one &quot;API Secret Key&quot; is your API Consumer Secret Key.</li>
+<li>The default settings for the app should be fine for our purposes.</li>
+<li>Under &quot;Authentication Tokens&quot; find &quot;Access Token and Secret&quot; and click &quot;Generate&quot;. Securely save these two values somewhere.</li>
+</ol>
+<p><strong>Whatever you do, keep all four of these values secret and safe!</strong></p>
+<p><strong>Do not accidentally distribute them in code, or leave them written down in a public place!</strong></p>
+<p><strong>These codes can be used by nefarious individuals to have complete control of your Twitter account and cause you immense sadness.</strong></p>
