@@ -1,8 +1,8 @@
-# Twitter Basics for Linguists
+# Basics of Analyzing Twitter Data in Python
 
 ## Introduction
 
-This workshop is a brief introduction to working with Twitter data using the `tweepy` python library. The example code and instructions were put together by Eric Wilbanks (EricWilbanks.github.io) for the Sociolinguistics Lab at Berkeley (http://linguistics.berkeley.edu/slab/) on October 28, 2020. If you have any questions about the code or troubleshooting issues, please contact me by email at *wilbanks.ericw at gmail.com*.
+This workshop is a brief introduction to working with Twitter data using the `tweepy` python library. The example code and instructions were put together by Eric Wilbanks (http://EricWilbanks.github.io) for the Sociolinguistics Lab at Berkeley (http://linguistics.berkeley.edu/slab/) on October 28, 2020. If you have any questions about the code or troubleshooting issues, please contact me by email at *wilbanks.ericw at gmail.com*.
 
 
 ## Outline
@@ -12,6 +12,7 @@ This workshop will cover the basics for people interested in interacting with Tw
 - Creating a Developer Account
 - Making API requests and exporting data
 - Visualizing basic information about tweets
+- Tokenization and text processing
 - Basic Sentiment Analysis
 - Analyzing geotagged tweets
 
@@ -30,7 +31,7 @@ This workshop was initially developed in `Python 3.8.6` and the `Twitter Api v1.
 
 Most of the modules are distributed as Jupyter iPython notebooks (.ipynb). You can find more information about installing and using Jupyter notebooks at (https://jupyter.org/).
 
-Because of Twitter Terms of Service, we won't be distributing the twitter corpora mentioned in the . Please find instructions for collecting comparable corpora in `01_querying_twitter.ipynb`.
+Because of Twitter Terms of Service, we won't be distributing the twitter corpora mentioned in the various exercises. Please find instructions for collecting comparable corpora in `01_querying_twitter.ipynb`.
 
 ## Other Resources
 
